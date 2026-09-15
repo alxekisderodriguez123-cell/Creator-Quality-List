@@ -1,6 +1,16 @@
 // ========================================
 // DATOS DE LOS CREADORES
 // ========================================
+const APPWRITE_ENDPOINT = "https://fra.cloud.appwrite.io/v1";
+const APPWRITE_PROJECT_ID = "6aa8acf7002aeb856026";
+
+const client = new Appwrite.Client();
+
+client
+    .setEndpoint(APPWRITE_ENDPOINT)
+    .setProject(APPWRITE_PROJECT_ID);
+
+console.log("Appwrite conectado:", client);
 const creators = [
 
     {
