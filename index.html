@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Creator Quality List</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="site-header">
+
+    <div class="brand">
+
+        <div class="brand-logo">
+            ◇
+        </div>
+
+        <div class="brand-text">
+
+            <h1>CREATOR QUALITY LIST</h1>
+
+            <p>Geometry Dash Creator Rankings</p>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+    <!-- ESTRUCTURA PRINCIPAL -->
+    <div class="layout">
+
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+    <nav>
+
+        <button class="nav-button active" data-section="home">
+            🏠 Home
+        </button>
+
+        <button class="nav-button" data-section="top100">
+             Top 100
+        </button>
+
+        <button class="nav-button" data-section="rules">
+            📜 Rules
+        </button>
+
+    </nav>
+
+</aside>
+
+
+        <!-- CONTENIDO -->
+        <main class="content">
+
+
+            <!-- INICIO -->
+           <section id="home" class="page-section">
+
+    <div class="home-content">
+
+        <span class="home-label">
+            GEOMETRY DASH • CREATOR RANKINGS
+        </span>
+
+        <h2>
+            CREATOR QUALITY LIST
+        </h2>
+
+        <p>
+            Un ranking competitivo dedicado a reconocer
+            a los creadores de Geometry Dash según la
+            calidad, creatividad y consistencia de sus obras.
+        </p>
+
+        <button
+            class="home-button"
+            data-section="top100">
+             View Top 100
+        </button>
+
+        <div class="home-tags">
+
+            <span>Quality</span>
+            <span>Creativity</span>
+            <span>Consistency</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+            <!-- TOP 100 -->
+            <section id="top100" class="page-section">
+
+    <div class="top100-header">
+
+        <div>
+            <span class="section-label">
+                CREATOR QUALITY LIST
+            </span>
+
+            <h2>🏆 Top 100 Creators</h2>
+        </div>
+
+        <div class="creator-search">
+
+            <input
+                id="creator-search-input"
+                type="text"
+                placeholder="Search creator..."
+                autocomplete="off"
+            >
+
+        </div>
+
+    </div>
+
+
+    <div id="creator-list">
+
+        <!-- Las tarjetas aparecen aquí -->
+
+    </div>
+
+</section>
+
+                    <!-- Las tarjetas de los creadores aparecerán aquí -->
+
+                </div>
+
+            </section>
+  <!-- PERFIL DEL CREADOR -->
+<section id="creator-profile" class="page-section">
+
+    <button id="back-to-ranking">
+        ← Back to Top 100
+    </button>
+
+    <div id="profile-content">
+        <!-- Aquí aparecerá la información del creador -->
+    </div>
+
+</section>
+
+            <!-- REGLAS -->
+           <section id="rules" class="page-section">
+
+    <span class="section-label">
+        CREATOR QUALITY LIST • DOCUMENTATION
+    </span>
+
+    <h2>📜 Rules & Methodology</h2>
+
+    <p class="section-intro">
+        Creator Quality List (CQL) es un sistema competitivo de
+        clasificación creado para reconocer a los mejores creadores
+        de Geometry Dash basándose en la calidad demostrada de sus
+        trabajos, su consistencia y su capacidad creativa.
+    </p>
+
+
+    <div class="rules-list">
+
+
+        <!-- 1 -->
+
+        <article class="rule-block">
+
+            <h3>1. What is CQL?</h3>
+
+            <p>
+                CQL (Creator Quality List) es un ranking enfocado en
+                creadores de Geometry Dash. Su objetivo es identificar
+                y reconocer a los creadores que demuestran un alto
+                nivel de calidad a través de sus niveles.
+            </p>
+
+            <p>
+                El CQL no pretende reemplazar el sistema oficial de
+                Geometry Dash. Es un sistema comunitario independiente
+                enfocado específicamente en la calidad de creación.
+            </p>
+
+        </article>
+
+
+        <!-- 2 -->
+
+        <article class="rule-block">
+
+            <h3>2. Creators, not levels</h3>
+
+            <p>
+                El CQL clasifica principalmente a los creadores, no a
+                todos los niveles existentes en Geometry Dash.
+            </p>
+
+            <p>
+                Los niveles sirven como evidencia para evaluar la
+                calidad del creador y determinar su posición dentro
+                del ranking.
+            </p>
+
+        </article>
+
+
+        <!-- 3 -->
+
+        <article class="rule-block">
+
+            <h3>3. Creator Points are not the CQL Score</h3>
+
+            <p>
+                Creator Points, estrellas y otras estadísticas oficiales
+                pueden aparecer dentro del perfil del creador, pero no
+                determinan directamente su posición en el CQL.
+            </p>
+
+            <p>
+                Un creador con más Creator Points no necesariamente será
+                clasificado por encima de otro con menos puntos si la
+                calidad demostrada de sus trabajos es inferior.
+            </p>
+
+        </article>
+
+
+        <!-- 4 -->
+
+        <article class="rule-block">
+
+            <h3>4. Level evaluation</h3>
+
+            <p>
+                Los niveles utilizados como evidencia pueden recibir una
+                puntuación de 0 a 10 basada en distintos aspectos de su
+                creación.
+            </p>
+
+            <p>
+                La evaluación busca valorar tanto la ejecución técnica
+                como la experiencia general que ofrece el nivel.
+            </p>
+
+        </article>
+
+
+        <!-- 5 -->
+
+        <article class="rule-block">
+
+            <h3>5. Evaluation criteria</h3>
+
+            <p>
+                Los criterios considerados por el sistema pueden incluir:
+            </p>
+
+            <ul>
+
+                <li>
+                    <strong>Decoration:</strong>
+                    calidad visual, detalle y ejecución.
+                </li>
+
+                <li>
+                    <strong>Gameplay:</strong>
+                    calidad, jugabilidad y coherencia de la experiencia.
+                </li>
+
+                <li>
+                    <strong>Sync:</strong>
+                    relación entre gameplay, música y eventos.
+                </li>
+
+                <li>
+                    <strong>Optimization:</strong>
+                    rendimiento, estabilidad y uso responsable de
+                    recursos.
+                </li>
+
+                <li>
+                    <strong>Originality:</strong>
+                    creatividad y capacidad de aportar ideas propias.
+                </li>
+
+                <li>
+                    <strong>Theme & Coherence:</strong>
+                    consistencia entre concepto, decoración y gameplay.
+                </li>
+
+                <li>
+                    <strong>Readability:</strong>
+                    claridad visual y capacidad del jugador para entender
+                    lo que ocurre.
+                </li>
+
+                <li>
+                    <strong>Effects:</strong>
+                    uso de efectos, triggers y recursos visuales.
+                </li>
+
+                <li>
+                    <strong>Overall Experience:</strong>
+                    valoración general del nivel como obra completa.
+                </li>
+
+            </ul>
+
+        </article>
+
+
+        <!-- 6 -->
+
+        <article class="rule-block">
+
+            <h3>6. Quality over quantity</h3>
+
+            <p>
+                Tener una gran cantidad de niveles reconocidos no garantiza
+                una posición alta dentro del CQL.
+            </p>
+
+            <p>
+                El sistema busca valorar la calidad demostrada de manera
+                consistente y evitar que la cantidad de publicaciones sea
+                el factor dominante.
+            </p>
+
+        </article>
+
+
+        <!-- 7 -->
+
+        <article class="rule-block">
+
+            <h3>7. Consistency</h3>
+
+            <p>
+                La consistencia es una parte importante de la evaluación.
+                Un creador que demuestra calidad de forma repetida debería
+                tener una representación más sólida que otro cuya puntuación
+                dependa de un único nivel excepcional.
+            </p>
+
+            <p>
+                Por esta razón, el sistema puede considerar múltiples niveles
+                y diferentes muestras de trabajo al calcular el rendimiento
+                global de un creador.
+            </p>
+
+        </article>
+
+
+        <!-- 8 -->
+
+        <article class="rule-block">
+
+            <h3>8. Creator Score</h3>
+
+            <p>
+                El CQL Score representa el rendimiento general de un creador
+                dentro del sistema y se basa en las evaluaciones disponibles
+                de sus niveles.
+            </p>
+
+            <p>
+                El cálculo definitivo debe considerar la calidad de los
+                niveles, la consistencia y la cantidad de evidencia disponible,
+                evitando que una única evaluación determine completamente
+                la posición de un creador.
+            </p>
+
+            <p>
+                La fórmula matemática definitiva del sistema puede ser
+                modificada antes de la versión oficial para garantizar que
+                el ranking sea justo y resistente a comportamientos
+                que favorezcan artificialmente una posición.
+            </p>
+
+        </article>
+
+
+        <!-- 9 -->
+
+        <article class="rule-block">
+
+            <h3>9. Minimum evidence</h3>
+
+            <p>
+                Los creadores pueden necesitar una cantidad mínima de
+                evidencia evaluable antes de recibir una clasificación
+                completa dentro del Top 100.
+            </p>
+
+            <p>
+                El número exacto de niveles requerido será definido antes
+                de la versión oficial del sistema.
+            </p>
+
+        </article>
+
+
+        <!-- 10 -->
+
+        <article class="rule-block">
+
+            <h3>10. New creators and new entries</h3>
+
+            <p>
+                Los nuevos creadores pueden entrar al ranking cuando
+                cumplan los requisitos establecidos y exista suficiente
+                información para realizar una evaluación justa.
+            </p>
+
+            <p>
+                Una nueva entrada puede aparecer como <strong>NEW</strong>
+                antes de obtener un historial de movimientos.
+            </p>
+
+        </article>
+
+
+        <!-- 11 -->
+
+        <article class="rule-block">
+
+            <h3>11. Ranking movement</h3>
+
+            <p>
+                Las posiciones del ranking pueden cambiar después de
+                nuevas evaluaciones, nuevas muestras de trabajo o
+                actualizaciones relevantes.
+            </p>
+
+            <p>
+                El sistema puede mostrar movimientos como:
+            </p>
+
+            <ul>
+
+                <li><strong>▲</strong> subida de posiciones.</li>
+
+                <li><strong>▼</strong> bajada de posiciones.</li>
+
+                <li><strong>—</strong> sin cambio.</li>
+
+                <li><strong>NEW</strong> nueva entrada al ranking.</li>
+
+            </ul>
+
+        </article>
+
+
+        <!-- 12 -->
+
+        <article class="rule-block">
+
+            <h3>12. Ranking updates and removals</h3>
+
+            <p>
+                El ranking puede ser actualizado cuando exista nueva
+                información o sea necesario revisar una evaluación.
+            </p>
+
+            <p>
+                Un creador puede ser movido, reevaluado o retirado de una
+                posición cuando existan razones justificadas relacionadas
+                con la metodología o con información incorrecta.
+            </p>
+
+        </article>
+
+
+        <!-- 13 -->
+
+        <article class="rule-block">
+
+            <h3>13. Fairness and conflicts of interest</h3>
+
+            <p>
+                Las evaluaciones deben realizarse intentando mantener
+                independencia y objetividad.
+            </p>
+
+            <p>
+                Los evaluadores deberían evitar situaciones en las que
+                relaciones personales, conflictos o intereses propios
+                puedan influir de manera injusta sobre una puntuación.
+            </p>
+
+        </article>
+
+
+        <!-- 14 -->
+
+        <article class="rule-block">
+
+            <h3>14. Transparency</h3>
+
+            <p>
+                Siempre que sea posible, el sistema debe explicar de dónde
+                proviene la posición de un creador y qué factores influyen
+                en su puntuación.
+            </p>
+
+            <p>
+                Los perfiles pueden mostrar información relevante como
+                niveles evaluados, IDs, estadísticas y otros datos que
+                permitan entender mejor el rendimiento del creador.
+            </p>
+
+        </article>
+
+
+        <!-- 15 -->
+
+        <article class="rule-block">
+
+            <h3>15. Creator profiles</h3>
+
+            <p>
+                Cada creador puede disponer de un perfil individual dentro
+                del CQL que reúna su posición, puntuación, estadísticas y
+                niveles utilizados como evidencia.
+            </p>
+
+            <p>
+                En futuras versiones, los creadores podrán disponer de
+                elementos personalizados como avatar, identidad visual,
+                enlaces y otros datos del perfil.
+            </p>
+
+        </article>
+
+
+        <!-- 16 -->
+
+        <article class="rule-block">
+
+            <h3>16. Appeals and reviews</h3>
+
+            <p>
+                Los creadores podrán solicitar una revisión cuando
+                consideren que una evaluación contiene un error,
+                una inconsistencia o una situación que deba ser revisada.
+            </p>
+
+            <p>
+                El procedimiento definitivo para las apelaciones será
+                establecido antes del lanzamiento oficial.
+            </p>
+
+        </article>
+
+
+        <!-- 17 -->
+
+        <article class="rule-block">
+
+            <h3>17. Community responsibility</h3>
+
+            <p>
+                El CQL depende de información y evaluaciones realizadas
+                por personas. Las decisiones deben tratarse con respeto
+                y evitar ataques personales, favoritismos o campañas
+                dirigidas contra otros creadores.
+            </p>
+
+        </article>
+
+
+        <!-- 18 -->
+
+        <article class="rule-block">
+
+            <h3>18. Experimental status</h3>
+
+            <p>
+                Durante la Beta, algunas reglas, criterios y fórmulas
+                pueden cambiar mientras el sistema es probado.
+            </p>
+
+            <p>
+                Los cambios importantes deben ser documentados antes
+                de aplicarse de forma permanente en la versión oficial.
+            </p>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+    <!-- JAVASCRIPT -->
+   <!-- EDIT PROFILE MODAL -->
+
+<div id="edit-profile-modal" class="modal">
+
+    <div class="modal-content">
+
+        <div class="modal-header">
+
+            <h2>Edit Profile</h2>
+
+            <button
+                id="close-edit-profile"
+                class="modal-close">
+                ×
+            </button>
+
+        </div>
+
+
+        <div class="edit-form">
+
+            <div class="form-group">
+
+                <label for="edit-avatar">
+                    Avatar
+                </label>
+
+                <input
+                    type="file"
+                    id="edit-avatar"
+                    accept="image/png,image/jpeg,image/webp"
+                >
+
+                <div class="avatar-preview-container">
+
+                    <img
+                        id="edit-avatar-preview"
+                        src=""
+                        alt="Avatar preview"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="edit-name">
+                    Display Name
+                </label>
+
+                <input
+                    type="text"
+                    id="edit-name"
+                    maxlength="30"
+                    placeholder="Creator name"
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="edit-bio">
+                    Bio
+                </label>
+
+                <textarea
+                    id="edit-bio"
+                    maxlength="200"
+                    placeholder="Tell something about yourself..."
+                ></textarea>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="edit-links">
+                    Links
+                </label>
+
+                <input
+                    type="text"
+                    id="edit-links"
+                    maxlength="120"
+                    placeholder="YouTube, Discord, TikTok..."
+                >
+
+            </div>
+
+        </div>
+
+
+        <div class="modal-actions">
+
+            <button
+                id="cancel-edit-profile"
+                class="modal-button secondary">
+                Cancel
+            </button>
+
+            <button
+                id="save-edit-profile"
+                class="modal-button primary">
+                Save Changes
+            </button>
+
+        </div>
+
+    </div>
+
+</div> 
+  <script src="script.js"></script>
+
+</body>
+
+</html>
