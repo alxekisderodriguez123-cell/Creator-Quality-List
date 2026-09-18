@@ -17,6 +17,7 @@
 //
 
 const creators = [
+
     {
         name: "Split72",
         score: 9.84,
@@ -35,13 +36,13 @@ const creators = [
                 name: "Level Alpha",
                 id: "12345678",
                 rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
+                thumbnail: "https://via.placeholder.com/320x180"
             },
             {
                 name: "Level Omega",
                 id: "87654321",
                 rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
+                thumbnail: "https://via.placeholder.com/320x180"
             }
         ]
     },
@@ -51,26 +52,26 @@ const creators = [
         score: 9.71,
         previousRank: 2,
         avatar: "images/avatars/YunHaSeu14.png",
-        creatorPoints: 30,
-        ratedLevels: 11,
-        featuredLevels: 4,
-        epicLevels: 2,
+        creatorPoints: 24,
+        ratedLevels: 9,
+        featuredLevels: 3,
+        epicLevels: 1,
         legendaryLevels: 2,
-        mythicLevels: 2,
+        mythicLevels: 1,
         bio: "Geometry Dash creator.",
         links: "",
         bestLevels: [
             {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
+                name: "Dreamscape",
+                id: "23456789",
+                rate: "Legendary",
+                thumbnail: "https://via.placeholder.com/320x180"
             },
             {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
+                name: "Astral",
+                id: "34567890",
+                rate: "Featured",
+                thumbnail: "https://via.placeholder.com/320x180"
             }
         ]
     },
@@ -80,26 +81,26 @@ const creators = [
         score: 9.63,
         previousRank: 3,
         avatar: "images/avatars/robotchief.png",
-        creatorPoints: 30,
-        ratedLevels: 11,
-        featuredLevels: 4,
-        epicLevels: 2,
+        creatorPoints: 21,
+        ratedLevels: 8,
+        featuredLevels: 2,
+        epicLevels: 1,
         legendaryLevels: 2,
-        mythicLevels: 2,
+        mythicLevels: 1,
         bio: "Geometry Dash creator.",
         links: "",
         bestLevels: [
             {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
+                name: "Neon Core",
+                id: "45678901",
+                rate: "Legendary",
+                thumbnail: "https://via.placeholder.com/320x180"
             },
             {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
+                name: "Pulse",
+                id: "56789012",
+                rate: "Featured",
+                thumbnail: "https://via.placeholder.com/320x180"
             }
         ]
     },
@@ -109,26 +110,20 @@ const creators = [
         score: 9.52,
         previousRank: 4,
         avatar: "images/avatars/SwtCyn.png",
-        creatorPoints: 30,
-        ratedLevels: 10,
-        featuredLevels: 4,
-        epicLevels: 2,
-        legendaryLevels: 2,
-        mythicLevels: 2,
+        creatorPoints: 18,
+        ratedLevels: 7,
+        featuredLevels: 3,
+        epicLevels: 1,
+        legendaryLevels: 1,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
         bestLevels: [
             {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
+                name: "Afterlight",
+                id: "67890123",
                 rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
+                thumbnail: "https://via.placeholder.com/320x180"
             }
         ]
     },
@@ -138,903 +133,429 @@ const creators = [
         score: 9.47,
         previousRank: 5,
         avatar: "images/avatars/AleXins.png",
-        creatorPoints: 30,
-        ratedLevels: 10,
-        featuredLevels: 4,
-        epicLevels: 2,
-        legendaryLevels: 2,
-        mythicLevels: 1,
-        bio: "Geometry Dash creator.",
-        links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
-    },
-
-    {
-        name: "Neon Core",
-        score: 9.38,
-        previousRank: 6,
-        avatar: "images/avatars/Neon Core.png",
-        creatorPoints: 29,
-        ratedLevels: 10,
-        featuredLevels: 3,
-        epicLevels: 2,
-        legendaryLevels: 2,
-        mythicLevels: 1,
-        bio: "Geometry Dash creator.",
-        links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
-    },
-
-    {
-        name: "Pulse",
-        score: 9.31,
-        previousRank: 7,
-        avatar: "images/avatars/Pulse.png",
-        creatorPoints: 29,
-        ratedLevels: 9,
-        featuredLevels: 3,
-        epicLevels: 2,
-        legendaryLevels: 2,
-        mythicLevels: 1,
-        bio: "Geometry Dash creator.",
-        links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
-    },
-
-    {
-        name: "Afterlight",
-        score: 9.26,
-        previousRank: 8,
-        avatar: "images/avatars/Afterlight.png",
-        creatorPoints: 29,
-        ratedLevels: 9,
-        featuredLevels: 3,
-        epicLevels: 2,
+        creatorPoints: 15,
+        ratedLevels: 6,
+        featuredLevels: 2,
+        epicLevels: 1,
         legendaryLevels: 1,
-        mythicLevels: 1,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
         bestLevels: [
             {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
-    },
-
-    {
-        name: "Gravity",
-        score: 9.19,
-        previousRank: 9,
-        avatar: "images/avatars/Gravity.png",
-        creatorPoints: 28,
-        ratedLevels: 9,
-        featuredLevels: 3,
-        epicLevels: 2,
-        legendaryLevels: 1,
-        mythicLevels: 1,
-        bio: "Geometry Dash creator.",
-        links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
+                name: "Gravity",
+                id: "78901234",
+                rate: "Featured",
+                thumbnail: "https://via.placeholder.com/320x180"
             }
         ]
     },
 
     {
         name: "NeonPulse",
-        score: 9.12,
-        previousRank: 10,
+        score: 9.39,
+        previousRank: 6,
         avatar: "images/avatars/NeonPulse.png",
-        creatorPoints: 28,
-        ratedLevels: 8,
-        featuredLevels: 3,
-        epicLevels: 2,
+        creatorPoints: 14,
+        ratedLevels: 6,
+        featuredLevels: 2,
+        epicLevels: 1,
         legendaryLevels: 1,
-        mythicLevels: 1,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "VoidMaker",
-        score: 9.05,
-        previousRank: 11,
+        score: 9.32,
+        previousRank: 7,
         avatar: "images/avatars/VoidMaker.png",
-        creatorPoints: 28,
-        ratedLevels: 8,
-        featuredLevels: 3,
+        creatorPoints: 13,
+        ratedLevels: 6,
+        featuredLevels: 2,
         epicLevels: 1,
         legendaryLevels: 1,
-        mythicLevels: 1,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "Kryptex",
-        score: 8.98,
-        previousRank: 12,
+        score: 9.27,
+        previousRank: 8,
         avatar: "images/avatars/Kryptex.png",
-        creatorPoints: 28,
-        ratedLevels: 8,
-        featuredLevels: 3,
+        creatorPoints: 12,
+        ratedLevels: 5,
+        featuredLevels: 2,
         epicLevels: 1,
         legendaryLevels: 1,
-        mythicLevels: 1,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "LunarGD",
-        score: 8.91,
-        previousRank: 13,
+        score: 9.21,
+        previousRank: 9,
         avatar: "images/avatars/LunarGD.png",
-        creatorPoints: 27,
-        ratedLevels: 8,
-        featuredLevels: 3,
+        creatorPoints: 11,
+        ratedLevels: 5,
+        featuredLevels: 2,
         epicLevels: 1,
         legendaryLevels: 1,
-        mythicLevels: 1,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "Arctix",
-        score: 8.84,
-        previousRank: 14,
+        score: 9.16,
+        previousRank: 10,
         avatar: "images/avatars/Arctix.png",
-        creatorPoints: 27,
-        ratedLevels: 7,
-        featuredLevels: 3,
+        creatorPoints: 10,
+        ratedLevels: 5,
+        featuredLevels: 2,
         epicLevels: 1,
         legendaryLevels: 1,
-        mythicLevels: 1,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "PixelRush",
-        score: 8.77,
-        previousRank: 15,
+        score: 9.11,
+        previousRank: 11,
         avatar: "images/avatars/PixelRush.png",
-        creatorPoints: 27,
-        ratedLevels: 7,
-        featuredLevels: 2,
+        creatorPoints: 10,
+        ratedLevels: 5,
+        featuredLevels: 1,
         epicLevels: 1,
         legendaryLevels: 1,
-        mythicLevels: 1,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "Xenon",
-        score: 8.70,
-        previousRank: 16,
+        score: 9.06,
+        previousRank: 12,
         avatar: "images/avatars/Xenon.png",
-        creatorPoints: 27,
-        ratedLevels: 7,
-        featuredLevels: 2,
+        creatorPoints: 9,
+        ratedLevels: 5,
+        featuredLevels: 1,
         epicLevels: 1,
         legendaryLevels: 1,
-        mythicLevels: 1,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "MellowGD",
-        score: 8.63,
-        previousRank: 17,
+        score: 9.01,
+        previousRank: 13,
         avatar: "images/avatars/MellowGD.png",
-        creatorPoints: 26,
-        ratedLevels: 7,
-        featuredLevels: 2,
+        creatorPoints: 9,
+        ratedLevels: 5,
+        featuredLevels: 1,
         epicLevels: 1,
         legendaryLevels: 1,
-        mythicLevels: 1,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "AstralCore",
-        score: 8.56,
-        previousRank: 18,
+        score: 8.96,
+        previousRank: 14,
         avatar: "images/avatars/AstralCore.png",
-        creatorPoints: 26,
-        ratedLevels: 6,
-        featuredLevels: 2,
+        creatorPoints: 9,
+        ratedLevels: 4,
+        featuredLevels: 1,
         epicLevels: 1,
         legendaryLevels: 1,
-        mythicLevels: 1,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "QuantumGD",
-        score: 8.49,
-        previousRank: 19,
+        score: 8.91,
+        previousRank: 15,
         avatar: "images/avatars/QuantumGD.png",
-        creatorPoints: 26,
-        ratedLevels: 6,
-        featuredLevels: 2,
+        creatorPoints: 8,
+        ratedLevels: 4,
+        featuredLevels: 1,
         epicLevels: 1,
-        legendaryLevels: 1,
-        mythicLevels: 1,
+        legendaryLevels: 0,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "DarkNova",
-        score: 8.42,
-        previousRank: 20,
+        score: 8.86,
+        previousRank: 16,
         avatar: "images/avatars/DarkNova.png",
-        creatorPoints: 26,
-        ratedLevels: 6,
-        featuredLevels: 2,
+        creatorPoints: 8,
+        ratedLevels: 4,
+        featuredLevels: 1,
         epicLevels: 1,
-        legendaryLevels: 1,
-        mythicLevels: 1,
+        legendaryLevels: 0,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "GlitchWave",
-        score: 8.35,
-        previousRank: 21,
+        score: 8.81,
+        previousRank: 17,
         avatar: "images/avatars/GlitchWave.png",
-        creatorPoints: 25,
-        ratedLevels: 6,
-        featuredLevels: 2,
+        creatorPoints: 8,
+        ratedLevels: 4,
+        featuredLevels: 1,
         epicLevels: 1,
-        legendaryLevels: 1,
-        mythicLevels: 1,
+        legendaryLevels: 0,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "Nexor",
-        score: 8.28,
-        previousRank: 22,
+        score: 8.76,
+        previousRank: 18,
         avatar: "images/avatars/Nexor.png",
-        creatorPoints: 25,
-        ratedLevels: 6,
-        featuredLevels: 2,
+        creatorPoints: 7,
+        ratedLevels: 4,
+        featuredLevels: 1,
         epicLevels: 1,
-        legendaryLevels: 1,
-        mythicLevels: 1,
+        legendaryLevels: 0,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "FrostByte",
-        score: 8.21,
-        previousRank: 23,
+        score: 8.71,
+        previousRank: 19,
         avatar: "images/avatars/FrostByte.png",
-        creatorPoints: 25,
-        ratedLevels: 5,
-        featuredLevels: 2,
+        creatorPoints: 7,
+        ratedLevels: 4,
+        featuredLevels: 1,
         epicLevels: 1,
-        legendaryLevels: 1,
-        mythicLevels: 1,
+        legendaryLevels: 0,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "RavenGD",
-        score: 8.14,
-        previousRank: 24,
+        score: 8.66,
+        previousRank: 20,
         avatar: "images/avatars/RavenGD.png",
-        creatorPoints: 25,
-        ratedLevels: 5,
-        featuredLevels: 2,
+        creatorPoints: 7,
+        ratedLevels: 4,
+        featuredLevels: 1,
         epicLevels: 1,
-        legendaryLevels: 1,
-        mythicLevels: 1,
+        legendaryLevels: 0,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "BlueOrbit",
-        score: 8.07,
-        previousRank: 25,
+        score: 8.61,
+        previousRank: 21,
         avatar: "images/avatars/BlueOrbit.png",
-        creatorPoints: 25,
-        ratedLevels: 5,
-        featuredLevels: 2,
+        creatorPoints: 7,
+        ratedLevels: 4,
+        featuredLevels: 1,
         epicLevels: 1,
-        legendaryLevels: 1,
-        mythicLevels: 1,
+        legendaryLevels: 0,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "CyberDust",
-        score: 8.00,
-        previousRank: 26,
+        score: 8.56,
+        previousRank: 22,
         avatar: "images/avatars/CyberDust.png",
-        creatorPoints: 24,
-        ratedLevels: 5,
-        featuredLevels: 2,
+        creatorPoints: 6,
+        ratedLevels: 4,
+        featuredLevels: 1,
         epicLevels: 1,
-        legendaryLevels: 1,
-        mythicLevels: 1,
+        legendaryLevels: 0,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "NightPixel",
-        score: 7.93,
-        previousRank: 27,
+        score: 8.51,
+        previousRank: 23,
         avatar: "images/avatars/NightPixel.png",
-        creatorPoints: 24,
-        ratedLevels: 5,
-        featuredLevels: 2,
+        creatorPoints: 6,
+        ratedLevels: 4,
+        featuredLevels: 1,
         epicLevels: 1,
-        legendaryLevels: 1,
-        mythicLevels: 1,
+        legendaryLevels: 0,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "Solaris",
-        score: 7.86,
-        previousRank: 28,
+        score: 8.46,
+        previousRank: 24,
         avatar: "images/avatars/Solaris.png",
-        creatorPoints: 24,
+        creatorPoints: 6,
         ratedLevels: 4,
-        featuredLevels: 2,
+        featuredLevels: 1,
         epicLevels: 1,
-        legendaryLevels: 1,
-        mythicLevels: 1,
+        legendaryLevels: 0,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "PulseMaker",
-        score: 7.79,
-        previousRank: 29,
+        score: 8.41,
+        previousRank: 25,
         avatar: "images/avatars/PulseMaker.png",
-        creatorPoints: 24,
+        creatorPoints: 6,
         ratedLevels: 4,
-        featuredLevels: 2,
+        featuredLevels: 1,
         epicLevels: 1,
-        legendaryLevels: 1,
-        mythicLevels: 1,
+        legendaryLevels: 0,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "EchoGD",
-        score: 7.72,
-        previousRank: 30,
+        score: 8.36,
+        previousRank: 26,
         avatar: "images/avatars/EchoGD.png",
-        creatorPoints: 24,
+        creatorPoints: 5,
         ratedLevels: 4,
-        featuredLevels: 2,
+        featuredLevels: 1,
         epicLevels: 1,
-        legendaryLevels: 1,
-        mythicLevels: 1,
+        legendaryLevels: 0,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "HyperVoid",
-        score: 7.65,
-        previousRank: 31,
+        score: 8.31,
+        previousRank: 27,
         avatar: "images/avatars/HyperVoid.png",
-        creatorPoints: 23,
+        creatorPoints: 5,
         ratedLevels: 4,
-        featuredLevels: 2,
+        featuredLevels: 1,
         epicLevels: 1,
-        legendaryLevels: 1,
-        mythicLevels: 1,
+        legendaryLevels: 0,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "CrimsonGD",
-        score: 7.58,
-        previousRank: 32,
+        score: 8.26,
+        previousRank: 28,
         avatar: "images/avatars/CrimsonGD.png",
-        creatorPoints: 23,
-        ratedLevels: 4,
-        featuredLevels: 2,
+        creatorPoints: 5,
+        ratedLevels: 3,
+        featuredLevels: 1,
         epicLevels: 1,
-        legendaryLevels: 1,
-        mythicLevels: 1,
+        legendaryLevels: 0,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "OrbitX",
-        score: 7.51,
-        previousRank: 33,
+        score: 8.21,
+        previousRank: 29,
         avatar: "images/avatars/OrbitX.png",
-        creatorPoints: 23,
-        ratedLevels: 4,
-        featuredLevels: 2,
+        creatorPoints: 5,
+        ratedLevels: 3,
+        featuredLevels: 1,
         epicLevels: 1,
-        legendaryLevels: 1,
-        mythicLevels: 1,
+        legendaryLevels: 0,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "Zenith",
-        score: 7.44,
-        previousRank: 34,
+        score: 8.16,
+        previousRank: 30,
         avatar: "images/avatars/Zenith.png",
-        creatorPoints: 23,
+        creatorPoints: 5,
         ratedLevels: 3,
-        featuredLevels: 2,
+        featuredLevels: 1,
         epicLevels: 1,
-        legendaryLevels: 1,
-        mythicLevels: 1,
+        legendaryLevels: 0,
+        mythicLevels: 0,
         bio: "Geometry Dash creator.",
         links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
+        bestLevels: []
     },
 
     {
         name: "StaticGD",
-        score: 7.37,
-        previousRank: 35,
+        score: 8.11,
+        previousRank: 31,
         avatar: "images/avatars/StaticGD.png",
-        creatorPoints: 23,
-        ratedLevels: 3,
-        featuredLevels: 2,
-        epicLevels: 1,
-        legendaryLevels: 1,
-        mythicLevels: 1,
-        bio: "Geometry Dash creator.",
-        links: "",
-        bestLevels: [
-            {
-                name: "Level Alpha",
-                id: "12345678",
-                rate: "Mythic",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            },
-            {
-                name: "Level Omega",
-                id: "87654321",
-                rate: "Legendary",
-                thumbnail: "images/levels/PLACEHOLDER.png"
-            }
-        ]
-    },
-        name: "AetherGD",
-        score: 7.86,
-        previousRank: 36,
-        avatar: "https://via.placeholder.com/160",
         creatorPoints: 4,
         ratedLevels: 3,
         featuredLevels: 1,
@@ -1046,7 +567,87 @@ const creators = [
         bestLevels: []
     },
 
-       {
+    {
+        name: "NovaRush",
+        score: 8.06,
+        previousRank: 32,
+        avatar: "images/avatars/NovaRush.png",
+        creatorPoints: 4,
+        ratedLevels: 3,
+        featuredLevels: 1,
+        epicLevels: 1,
+        legendaryLevels: 0,
+        mythicLevels: 0,
+        bio: "Geometry Dash creator.",
+        links: "",
+        bestLevels: []
+    },
+
+    {
+        name: "VortexGD",
+        score: 8.01,
+        previousRank: 33,
+        avatar: "images/avatars/VortexGD.png",
+        creatorPoints: 4,
+        ratedLevels: 3,
+        featuredLevels: 1,
+        epicLevels: 1,
+        legendaryLevels: 0,
+        mythicLevels: 0,
+        bio: "Geometry Dash creator.",
+        links: "",
+        bestLevels: []
+    },
+
+    {
+        name: "MistWave",
+        score: 7.96,
+        previousRank: 34,
+        avatar: "images/avatars/MistWave.png",
+        creatorPoints: 4,
+        ratedLevels: 3,
+        featuredLevels: 1,
+        epicLevels: 1,
+        legendaryLevels: 0,
+        mythicLevels: 0,
+        bio: "Geometry Dash creator.",
+        links: "",
+        bestLevels: []
+    },
+
+    {
+        name: "RedShift",
+        score: 7.91,
+        previousRank: 35,
+        avatar: "images/avatars/RedShift.png",
+        creatorPoints: 4,
+        ratedLevels: 3,
+        featuredLevels: 1,
+        epicLevels: 1,
+        legendaryLevels: 0,
+        mythicLevels: 0,
+        bio: "Geometry Dash creator.",
+        links: "",
+        bestLevels: []
+    },
+
+    {
+        name: "AetherGD",
+        score: 7.86,
+        previousRank: 36,
+        avatar: "images/avatars/AetherGD.png",
+        creatorPoints: 4,
+        ratedLevels: 3,
+        featuredLevels: 1,
+        epicLevels: 1,
+        legendaryLevels: 0,
+        mythicLevels: 0,
+        bio: "Geometry Dash creator.",
+        links: "",
+        bestLevels: []
+    },
+
+           {
         name: "DarkPulse",
         score: 7.81,
         previousRank: 37,
@@ -1166,6 +767,7 @@ const creators = [
         creatorPoints: 3,
         ratedLevels: 3,
         featuredLevels: 1,
+        epicLevels: 1,
         legendaryLevels: 0,
         mythicLevels: 0,
         bio: "Geometry Dash creator.",
@@ -1548,8 +1150,8 @@ const creators = [
         avatar: "images/avatars/OrbitGD.png",
         creatorPoints: 2,
         ratedLevels: 2,
-        featuredLevels: 1,
         epicLevels: 1,
+        featuredLevels: 1,
         legendaryLevels: 0,
         mythicLevels: 0,
         bio: "Geometry Dash creator.",
@@ -1557,7 +1159,7 @@ const creators = [
         bestLevels: []
     },
 
-    {
+        {
         name: "NeonRift",
         score: 6.21,
         previousRank: 69,
@@ -2068,8 +1670,6 @@ const creators = [
         links: "",
         bestLevels: []
     }
-
-];
 
 
 // ========================================
